@@ -1,0 +1,42 @@
+.logo {
+    background-blend-mode: screen;
+    filter: contrast(1);
+}
+.loading {
+    position: relative;
+    top: 8rem;
+    left: 5rem;
+}
+
+.loadingSpinner{
+    position: relative;
+    top: 8rem;
+    left: 8rem;
+}
+
+.loadingText {
+    position: relative;
+    top: 9rem;
+    left: 2rem;
+    font-size: 1.2rem;
+    font-family: cursive;
+    animation: blink 3s linear infinite;
+}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+
+.creatingProfile{
+    position: relative;
+    top: 18rem;
+    left: 5rem;
+    display: flex;
+}
+
+.creattext{
+    margin: 2.8rem;
+    font-size: 1.2rem;
+    font-family: cursive;
+}

@@ -1,0 +1,16 @@
+/* styles.css or any other CSS file where you define your styles */
+/* Thin scrollbar */
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e2dddd; /* You can change this to any color you like */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #9aabd1 100%, #e4efe9 100%); /* Set your preferred scrollbar color */
+  border-radius: 10px;
+}

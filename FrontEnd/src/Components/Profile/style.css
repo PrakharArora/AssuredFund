@@ -1,0 +1,92 @@
+/* Add these styles to your style.css file */
+
+
+
+
+
+
+
+
+
+.flex-container {
+    display: flex;
+    /* Adjust these properties as needed */
+    align-items: center;
+    justify-content: center;
+}
+
+.border-div {
+    flex: 0 0 auto; /* Don't grow or shrink */
+    border-left: 2px solid #D1D5DB;
+    height: 20rem; /* Adjust as needed */
+}
+
+.card {
+    flex: 1; /* Grow to fill the space */
+    /* Rest of your card styling */
+}
+
+
+
+
+
+@media (min-width: 2500px) {
+    .container {
+        width: 100%; /* Ensure container takes the full width */
+        max-width: none; /* Remove any max-width constraints */
+        padding: 0; /* Adjust padding if necessary */
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(20%, 1fr)); /* Columns take up at least 20% of the container width */
+        gap: 2rem; /* Maintain consistent spacing between grid items */
+    }
+
+    .max-w-xl {
+        max-width: 100%; /* Allow elements to expand fully */
+    }
+
+    /* Adjust font sizes, margins, and paddings */
+    h2, h5 {
+        font-size: 2rem; /* Adjust font size */
+    }
+
+    .text-sm {
+        font-size: 1.2rem; /* Adjust smaller text font size */
+    }
+
+    .mb-2, .mb-3, .mb-8, .mx-16, .p-6 {
+        margin: 1rem; /* Set a uniform margin */
+        padding: 1rem; /* Set a uniform padding */
+    }
+
+    .CircularProgressbar {
+        width: auto; /* Allow progress bar to adjust its size automatically */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    img {
+        width: 100%; /* Ensure images stretch to fill their containers */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+
+.smallTelInput {
+    height: 4rem; /* Adjust the outer height */
+    input {
+        height: 1.6rem;
+        width: 14rem;
+        border-radius: 10px;
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
